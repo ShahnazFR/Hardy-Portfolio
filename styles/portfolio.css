@@ -5,6 +5,9 @@ body {
 /* Nav related styles */
 nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 200px;
 }
 .title {
   color: var(--Dark-01, #181818);
@@ -16,8 +19,10 @@ nav {
 }
 nav > ul {
   display: flex;
+  align-items: center;
 }
 nav li {
+    
   list-style: none;
   margin-right: 51px;
 }
@@ -28,4 +33,23 @@ nav a {
 .btn-primary {
   border-radius: 5px;
   background: #fd6e0a;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px 19px 36px;
+  margin-right: 2px;
+}
+
+/* Header related styles */
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.pro-pic{
+    width: 400px;
 }
