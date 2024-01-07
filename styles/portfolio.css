@@ -43,28 +43,35 @@ nav a {
 
 /* Header related styles */
 .header {
+  height: 850px;
   background: #fff8f3;
   background-image: url(../images/header_bg.png), url('../images/developer.png');
   background-repeat: no-repeat;
   background-position: bottom right, top left;
   margin-bottom: 150px;
-  /* background-size: 50% 50%; */
+  /* background-size: cover; */
   /* background-size: 300px 200px; */
 }
 .banner {
+  /* background-color: red; */
   padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .pro-pic {
-  width: 400px;
-  margin-right: 100px;
+  height: 669px;
+  /* width: 400px; */
+  margin-bottom: auto;
+  margin-right: 40px;
+  /* align-self: self-end; */
+  /* bottom: 0; */
+  /* position: absolute; */
  /* display: flex; */
  /* justify-content: center; */
  /* align-items: center; */
  /* image-orientation: ; */
- img
 }
 .banner-greeting {
   color: #474747;
@@ -94,7 +101,7 @@ nav a {
 main {
   /* margin-top: 150px; */
   max-width: 1140px;
-  height: 550px;
+  /* height: 550px; */
   margin: 0px auto;
 }
 
