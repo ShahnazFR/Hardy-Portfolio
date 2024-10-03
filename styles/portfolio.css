@@ -259,30 +259,32 @@ footer {
 
 /* Mobile */
 @media screen and (max-width: 576px) {
-  main section,footer,.header{
-    width: 100%;
+
+  main{
+    max-width: 100%;
+  }
+  footer,.header,main section{
+    width: 95%;
     margin-top: 10px;
   }
   /* Header Styles */
   .header{
     background-image: none;
     height: auto;
-    width: 100%;
+    /* width: 100%; */
     margin-bottom: 50px;
     padding: 10px;
   }
   .banner{
-    padding: 10px;
+    padding: 15px;
     flex-direction: column-reverse;
-  }
-  .banner-container{
     text-align: center;
   }
   .btn-primary{
     margin-bottom: 20px;
   }
   .pro-pic{
-    width: 100%;
+    width: 75%;
     height: 100%;
   }
   nav{
@@ -295,7 +297,7 @@ footer {
   }
   nav ul li{
     margin-bottom: 10px;
-    margin-right: 0px;
+    margin-right: 5px;
   }
   /* About Section Styles */
   .about{
@@ -307,11 +309,13 @@ footer {
   /* Skill container styles */
   .skill-container {
     flex-direction: column;
+    gap: 20px;
   }
   .section-description {
     padding: 5px;
   }
   .skill {
+    margin-left: 17px;
     display: flex;
     flex-direction: column;
     text-align: center;
